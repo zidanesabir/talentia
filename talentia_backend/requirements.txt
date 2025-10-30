@@ -1,0 +1,18 @@
+fastapi==0.100.0
+uvicorn[standard]==0.22.0
+python-multipart==0.0.6
+motor==3.1.1
+pydantic==1.10.12
+python-dotenv==1.0.0
+bcrypt==4.0.1
+PyJWT==2.8.0
+aiofiles==23.1.0
+python-docx==0.8.11
+pdfminer.six>=20231228
+sentence-transformers==2.2.2
+spacy==3.7.1
+beautifulsoup4==4.12.2
+requests==2.31.0
+scikit-learn==1.3.2
+faiss-cpu==1.7.4; platform_system != 'Windows'
+# On Windows, installing faiss via pip often fails. Use conda to install faiss-cpu or skip faiss.
